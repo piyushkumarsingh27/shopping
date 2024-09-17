@@ -1,0 +1,67 @@
+body{
+    background-color:black;
+}
+.mainBox{
+    background-color: white;
+    border: 15px;
+    border-color: black;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    width:600px;
+    height:400px;
+}
+#img{
+    height: 350px;
+    width: auto;
+}
+
+.size button{
+    margin: 5px;
+    border-radius: 90%;
+}
+#red{
+    height: 20px;
+    background-color: red;
+    border-radius:100%;
+}
+#black{
+    height: 20px;
+    background-color: black;
+    border-radius:100%;
+}
+
+#blue{
+    height: 20px;
+    background-color: blue;
+    border-radius:100%;
+}
+
+
+#white{
+    height: 20px;
+    background-color: white;
+    border-radius:100%;
+}
+.priceBox{
+    margin-left: 20px;
+    width: 300px;
+   
+}
+#p,#h4{
+    margin: 0px;
+}
+
+#buy{
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(2, 2, 26);
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+}
+.quantity,.color{
+    margin-top: 10px;
+}
